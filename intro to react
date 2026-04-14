@@ -1,0 +1,74 @@
+reactjs is a library of js
+react is developed by jordan walke who works at facebook currently which is meta launched in 2011 and in 2013 it is open source
+reactjs are of two types:
+1.react native--for mobile application devlopment
+2.react js---for web devlopment
+---impoertance---
+react provides fast ui that why we have to learn reactjs
+provide fast ui because of component based architecture--js multiple files are component
+provide reusability
+⭐⭐single page application is made--bcz single html page and js files renders on it
+only one html file --index.html
+js ki multiple files jinhe hum components bolte h
+
+browser kais esmjhta hai react ko
+react ki file phle puri js me convert hoti hai then browser me run hoti hai
+babal react ko js me complete convert krta hai
+babal ek transefileror converter
+
+node.js is the runtimw environment of js
+npm-package manager
+jb bhi koi react ka bhi project bnana hoga toh npm ki help se hi hoga
+react+bundler
+
+bundler-vite
+bundler pura ka pura ek project bna ke de deta haii
+react ka project hmesa install hoga 
+or vo ek folder install hoga jispew hm work krenge
+
+⭐⭐⭐⭐
+command to create project:-
+npm create vite@latest project_name
+
+--project run krane ki command
+npm run dev
+
+node_modules me dependencies and packages rehte hai
+dependencies--kin chijo pe depend hoke kam krega
+agr node_modules ka folder hi nahi h toh react work hi nhi krega
+
+public me static files rhegi
+
+src--source folder me sare components rhege
+
+package.json--dependencies ki information
+package-lock.json--isme dependecy lock krte hai bcz agr time ke bad dependency undate hoti h jise change ata hai or lock h to jis dependency pe work kra tha vhi run hogi nahi toh update ke hisab se hogi agr lock nahi kra hoga toh jiss vo work nahi kregi
+
+
+app.jsx--root componenet hai/means main component
+
+two phases--1.devlopment   2.production
+
+StrictMode-  lga bhi skte ho nahi bhi lga skte,pr devlopment phase me do bar check krta hai code ko
+
+componenets--building block of react
+two types of components
+1.functional componenet
+2.class component
+
+component ko as a tag use krenge main page me
+
+jsx--javascriptxml 
+xml--extensible markup language
+
+jsx me html nhi likhre hai jsx likhre hai pr usme html isliye likh pare hai kyuki jsx pura html ka structur provide krta haii
+
+return ke andr jsx return krate hai
+empty tag is called fragment<> </>
+jsx rules:
+1.only single tag can return
+2.non containers or single tag ko self close krna pdta hai
+3.class is written as className bcz class is keyword in js
+4.for using js we use curly braces {}
+5.jsx ke andr jb bhi variable use kroge curly braces lgana pdega
+6.jb bhi function component bnega toh function ka first letter always capital
