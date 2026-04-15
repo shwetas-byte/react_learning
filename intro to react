@@ -72,3 +72,6 @@ jsx rules:
 4.for using js we use curly braces {}
 5.jsx ke andr jb bhi variable use kroge curly braces lgana pdega
 6.jb bhi function component bnega toh function ka first letter always capital
+  
+
+  npm install--for node modules file
