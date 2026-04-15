@@ -72,6 +72,10 @@ jsx rules:
 4.for using js we use curly braces {}
 5.jsx ke andr jb bhi variable use kroge curly braces lgana pdega
 6.jb bhi function component bnega toh function ka first letter always capital
+7.jsx me conditional statements means if else use nhi kr skte uski jgh pr ternary operator use krenge
   
 
   npm install--for node modules file
+
+  app.css--components ke liye local styling
+  index.css--sare page ke liye jo chij common chahiye like header and footer global styling
