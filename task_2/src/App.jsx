@@ -3,6 +3,8 @@ import About from './about.jsx'
 import Contact from './contact.jsx'
 import Login from './login.jsx'
 import Learn from './learn.jsx'
+import { Gallery, Gallery1 } from './Gallery.jsx'
+
 function App()
 {
   return(
@@ -13,6 +15,8 @@ function App()
     <Contact />
     <Login />
     <Learn />
+    <Gallery/>
+    <Gallery1/>
     </>
 
   )
