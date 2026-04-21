@@ -79,3 +79,10 @@ jsx rules:
 
   app.css--components ke liye local styling
   index.css--sare page ke liye jo chij common chahiye like header and footer global styling
+
+  props are called properties and the combination of attributes and parameters
+
+  attribute-jb value ko send krna hai
+  parameter-jb value ko accept krna ho
+
+  one way vbinding means always parent to child hi data jata hai
