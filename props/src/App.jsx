@@ -1,3 +1,4 @@
+import Ch1 from "./ch1"
 import { Child1 } from "./child"
 import Child2 from "./child2"
 import Child4 from "./child4"
@@ -13,6 +14,7 @@ function App()
      <Child1 name='shweta' age={18} city='Bhopal' />
      <Child2 name='shweta' contact='112324'/>
      <Child4 {...person} />
+     <Ch1  user='Shweta'/>
     </>
   )
 }
