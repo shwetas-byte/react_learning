@@ -86,3 +86,12 @@ jsx rules:
   parameter-jb value ko accept krna ho
 
   one way vbinding means always parent to child hi data jata hai
+
+state means data which can vhange and update
+hooks-predifened function or normal js function there are different types of hooks and perform different tasks
+whwnwever a hook is used we have to mport it in the component jha use use ke hai
+hook ka use return ke upr hoga
+
+useState always return array in the destructuring format it is used to change the state of the component
+usestate me kisi datatype ki value ko store kr skte hai
+
