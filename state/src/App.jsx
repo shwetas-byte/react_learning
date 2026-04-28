@@ -1,5 +1,8 @@
 import { useState } from "react"
 import Home from "./home"
+import Contact from "./contact"
+import Image from "./image"
+
 
 function App()
 {
@@ -16,21 +19,27 @@ function App()
   {
     setColor('blue')
   }
+  
 
 
   return(
     <>
       <div style={{backgroundColor:color}}>
            <h1>Lorem ipsum dolor sit amet. {data.name}</h1>
-           <button onClick={red}>Red</button>
-           <button onClick={blur}>Blue</button>
-          {/* <button onClick={color2}>Green</button> */}
-          {/* <button onClick={color3}>Black</button> */}
-
-
-      </div>
-      
+           
       <Home/>
+      <Contact/>
+
+      <button onClick={red}>Red</button>
+           <button onClick={blue}>Blue</button>
+
+          <button onClick={()=>setColor('black')}>Black</button>
+
+
+
+          </div>
+        <Image/>
+      
     </>
   )
 }
