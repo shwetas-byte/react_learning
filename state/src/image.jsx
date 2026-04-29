@@ -4,8 +4,7 @@ import img3 from './img3.jpg'
 import { useState } from 'react'
 function Image()
 { 
-    let[image,setImage]=useState(img1)
-    
+    let[image,setImage]=useState(img1)   
     return(
         <>
             <h1>This is image page</h1>
