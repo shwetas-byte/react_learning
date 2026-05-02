@@ -13,7 +13,6 @@ function Image()
             <img onMouseEnter={()=>setImage(img3)} width={400} src={img3} alt="" />
             <h1>
             <img width={400} src={image} alt="" />
-
             </h1>
         </>
     )
