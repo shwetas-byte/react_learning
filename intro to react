@@ -112,3 +112,5 @@ components hmesa url based render hote hai
 route has 2 attribute: path , element
 
 
+usenavigate hook work as link but returns the function
+
