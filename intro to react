@@ -33,6 +33,8 @@ npm create vite@latest project_name
 --project run krane ki command
 npm run dev
 
+
+
 node_modules me dependencies and packages rehte hai
 dependencies--kin chijo pe depend hoke kam krega
 agr node_modules ka folder hi nahi h toh react work hi nhi krega
@@ -85,7 +87,7 @@ jsx rules:
   attribute-jb value ko send krna hai
   parameter-jb value ko accept krna ho
 
-  one way vbinding means always parent to child hi data jata hai
+  one way binding means always parent to child hi data jata hai
 
 state means data which can vhange and update
 hooks-predifened function or normal js function there are different types of hooks and perform different tasks
@@ -94,6 +96,9 @@ hook ka use return ke upr hoga
 
 useState always return array in the destructuring format it is used to change the state of the component
 usestate me kisi datatype ki value ko store kr skte hai
+
+
+react renderind provide nhi krta hai different components ki jiske liye router dom use krna pdta hai
 
 
 react router dome:
@@ -114,3 +119,12 @@ route has 2 attribute: path , element
 
 usenavigate hook work as link but returns the function
 
+tailwind css : built in classes rehti hai css ke liye
+search krenge tailwind css for react js
+steps:
+1. install tailwind :npm install tailwindcss @tailwindcss/vite
+
+2.config: vite.config me krenge:import tailwindcss from '@tailwindcss/vite'
+                                tailwindcss()
+
+3.import on index.css:@import "tailwindcss";
