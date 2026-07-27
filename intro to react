@@ -132,3 +132,9 @@ steps:
                                 tailwindcss()
 
 3.import on index.css:@import "tailwindcss";
+
+form:
+from me onChange nam ka event use hota hai usme function call hota hai 
+event jb fire hota h toh funtion ko object pass hota hai jise event object kehte hai
+jitne bar change hoga utne bar object create hoga
+objrct jb create hua toh usme target nam ki key hogi or target bhi ek object hai jiske and ek key hai value jha value store hui hogoi
