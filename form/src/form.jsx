@@ -6,6 +6,9 @@ const Form=()=>{
     let[password,setPassword]=useState()
     let[age,setAge]=useState()
     let[address,setAddress]=useState()
+
+
+    
     function hinput(event){
         setName(event.target.value)
     }

@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 
 export default function Form1(){
     let[frmdata,setFrmdata]=useState({})
@@ -7,17 +8,22 @@ export default function Form1(){
         // setFrmdata({...frmdata,[name]:value})
         setFrmdata({...frmdata,[e.target.name]:e.target.value})
     }
+    let navigate=useNavigate()
     function submit(e){
         e.preventDefault()
         console.log(frmdata)
-        console.log(e)
-    }
+        navigate('/form')
+        // console.log(e)
+        // if(frmdata.name.value==""){
+        //     alert("Name is requitred")
+        }
+    
     return(
         <>
             <h1>Registration Form</h1>
             <form onSubmit={submit}>
                 <label htmlFor="">Name:</label>
-                <input onChange={fun} type="text" name="name" />
+                <input required onChange={fun} type="text" name="name" />
                 <br /><br />
 
                 <label htmlFor="">Age:</label>

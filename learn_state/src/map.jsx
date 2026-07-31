@@ -1,7 +1,8 @@
 import myimg from './assets/react.svg'
+import { MdBusinessCenter } from "react-icons/md";
 export function Map(){
     let person=[
-        {name:"Shweta",age:18,city:"Bhopal",image:myimg},
+        {name:<MdBusinessCenter/>,age:18,city:"Bhopal",image:myimg},
         {name:"Pihu",age:16,city:"Betul",image:myimg},
         {name:"Ayushi",age:19,city:"Indore",image:myimg},
     ]
