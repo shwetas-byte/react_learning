@@ -138,3 +138,7 @@ from me onChange nam ka event use hota hai usme function call hota hai
 event jb fire hota h toh funtion ko object pass hota hai jise event object kehte hai
 jitne bar change hoga utne bar object create hoga
 objrct jb create hua toh usme target nam ki key hogi or target bhi ek object hai jiske andr ek key hai value jha value store hui hogoi
+
+context:it is used to solve problem of the props drilling in this we show data ghlobally jisse jo child ko data lghra h vo use krega bs unnecessary sbke pass data nhi jayega isme data ko creaate krna pdta h then provide and cvonsume
+
+createcontext is a function provided by react which return objects.it has two componenets when it returns object provider and consumer
