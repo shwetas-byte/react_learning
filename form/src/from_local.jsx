@@ -11,6 +11,8 @@ export function Form_Local(){
         e.preventDefault()
         localStorage.setItem("userdata",JSON.stringify(frmdata))
         navigate('/form1_local')
+
+        
     }
     return(
         
