@@ -1,14 +1,21 @@
-import { createContext } from "react";
-import Child1 from "./assets/components/child1";
+import Child1 from "./components/child1";
+import Child2 from "./components/child2";
+import Child3 from "./components/child3";
+import Child4 from "./components/child4";
+import Child5 from "./components/child5";
 
-export let dataob=createContext()
-let name='Shweta'
+
+
 export default function App(){
   return(
     <>
-      <dataob.Provider  value={name}>
+      
         <Child1 />
-      </dataob.Provider>
+        <Child2/>
+        <Child3/>
+        <Child4/>
+        <Child5/>
+      
     </>
   )
 }
