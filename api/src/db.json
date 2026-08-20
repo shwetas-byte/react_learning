@@ -1,0 +1,23 @@
+{
+  "userdata": [
+    {
+      "name": "shweta",
+      "id": "QHI6hQ8zfBM"
+    },
+    {
+      "name": "Shweta Singh",
+      "age": "10",
+      "contact": "3242141412",
+      "city": "bhopal",
+      "id": "4MleuXVMq6Q"
+    },
+    {
+      "name": "Shweta Singh",
+      "age": "10",
+      "contact": "3242141412",
+      "city": "bhopal",
+      "id": "p5GWBmiQtVo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

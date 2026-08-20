@@ -142,3 +142,22 @@ objrct jb create hua toh usme target nam ki key hogi or target bhi ek object hai
 context:it is used to solve problem of the props drilling in this we show data ghlobally jisse jo child ko data lghra h vo use krega bs unnecessary sbke pass data nhi jayega isme data ko creaate krna pdta h then provide and cvonsume
 
 createcontext is a function provided by react which return objects.it has two componenets when it returns object provider and consumer
+
+api:
+npm install axios
+
+api me data lane ke liye json placeholder->resources->then select
+
+.then(),.catch()=>higher order function used only in api to handle promises used with both fetch and axios
+
+http methods:
+get()- for accessing data
+post()- 
+patch/put-
+delete()-
+
+json server install command
+npm install -g json-server --- for globally
+
+json server run command
+json-server --watch file_name
