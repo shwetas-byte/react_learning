@@ -12,7 +12,6 @@ export default function App(){
         <Route index element={<Insert/>}/>
         <Route path="/show" element={<Show/>}/>
      </Routes>
-   
-    </>
+       </>
   )
 }

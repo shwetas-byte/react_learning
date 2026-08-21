@@ -14,6 +14,7 @@ export default function Insert(){
         axios.post('http://localhost:3000/userdata',frmdata)
         .then(()=>alert('data inserted',navigate('/show')))
         .catch((err)=>console.log("not inserted",err))
+        
 
     }
 
