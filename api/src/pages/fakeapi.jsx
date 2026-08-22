@@ -9,12 +9,15 @@ export default function Api(){
         .catch((err)=> console.log("data not fetched",err))
 
 
+        
+
+
     },[])
     return(
         <>
             <table border=''>
                 <tr>
-                    
+
                     <th>Id</th>
                     <th>TITLE</th>
                     <th>BODY</th>
