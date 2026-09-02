@@ -1,6 +1,7 @@
 import axios from "axios"
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+import { toast } from "react-toastify"
 
 export default function Insert(){
     let navigate=useNavigate()
@@ -12,7 +13,7 @@ export default function Insert(){
     function frmsubmit(e){
         e.preventDefault()
         axios.post('http://localhost:3000/userdata',frmdata)
-        .then(()=>alert('data inserted',navigate('/show')))
+        .then(()=>toast('user added'),{type:success},navigate('/show'))
         .catch((err)=>console.log("not inserted",err))
         
 

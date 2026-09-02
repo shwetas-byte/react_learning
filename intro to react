@@ -161,3 +161,10 @@ npm install -g json-server --- for globally
 
 json server run command
 json-server --watch file_name
+
+toastify-- used for perform act as a alert
+npm i react-toastify
+
+uiverse
+react-bits
+
