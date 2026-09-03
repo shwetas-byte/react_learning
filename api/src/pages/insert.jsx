@@ -15,6 +15,9 @@ export default function Insert(){
         axios.post('http://localhost:3000/userdata',frmdata)
         .then(()=>toast('user added'),{type:success},navigate('/show'))
         .catch((err)=>console.log("not inserted",err))
+
+
+        
         
 
     }
